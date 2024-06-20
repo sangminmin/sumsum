@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숨숨책방</title>
+
+
+
+    <!-- 슬라이드 css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- 파비콘 -->
+    <link href="./image/icon.png" rel="icon" type="image/png" sizes="32x32">
+</head>
+
+<body>
+    <!-- 탑버튼 -->
+    <a href="#" class="top"><img src="./image/top_b.png" alt="top버튼"></a>
+
+    <!-- 헤더 -->
+    <header>
+        <div class="header_in">
+
+            <!-- 헤더_로고 -->
+            <a href="./index.html" class="logo"><img src="./image/logo.png" alt="로고"></a>
+
+            <!-- 헤더_nav -->
+            <ul class="nav">
+
+                <li><a href="./sub1.html">소개</a>
+                    <ul class="sub">
+                        <li><a href="./sub1.html">스토리</a></li>
+                        <li><a href="#">BI</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="./sub2.html">숨숨도서</a></li>
+                <li><a href="./sub3.html">숨숨샵</a></li>
+
+                <li><a href="./sub5.html">커뮤니티</a>
+                    <ul class="sub">
+                        <li><a href="./sub6.html">숨숨모임</a></li>
+                        <li><a href="./sub5.html">책방이야기</a></li>
+                        <li><a href="./sub4.html">이벤트</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- 헤더_right -->
+
+            <ul class="header_r">
+                <li class="search">
+                    <form class="search-box">
+
+                        <input class="search-txt" type="text" placeholder="무엇이 궁금하신가요?">
+
+                        <button class="search-btn" type="submit">
+
+                            <img src="./image/search.png" alt="검색버튼">
+                        </button>
+                    </form>
+                </li>
+
+                <li><a href="#">로그인</a></li>
+                <li><a href="#"><img src="./image/loginbar.png" alt=""></a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+
+        </div>
+        <!-- 헤더 인 -->
+    </header>
+    <!-- 헤더 -->
+
+
+    <!-- 배너 -->
+    <div data-aos="fade-up" class="mainbanner"><img src="./image/mainbanner.png" alt="배너" class="mb">
+
+
+        <div class="section"></div>
+        <div class="section2 section">
+            <p>세상 모든 책방을 위하여, 숨숨책방</p>
+            <span class="animate2" data-rate="12076"></span>명의 숨숨대원들과 <br>
+            함께하고 있어요! <!-- , 단위 -->
+        </div>
+    </div>
+    <!-- 배너 -->
+
+
+    <!-- con1 -->
+    <div data-aos="fade-up" class="con1">
+
+        <p class="title_s">데이터를 분석해 이달의 숨숨책을 추천해드려요!</p>
+        <p class="title"><span>상민</span> 대원의 숨숨책은?</p>
+
+        <div class="tag">
+            <a href="#none">여행</a>
+            <a href="#none">에세이</a>
+            <a href="#none">일상</a>
+            <a href="#none">귀여운</a>
+        </div>
+        <a href="#none" class="plus_tag"><img src="./image/plus_tag.png" alt="더보기 아이콘"></a>
+
+        <div class="plus">
+            <a href="./sub2.html" class="text">더보기</a>
+            <a href="./sub2.html" class="plusicon"><img src="./image/plus.png" alt="더보기 아이콘"></a>
+        </div>
+
+        <div class="bookwrap">
+
+            <div class="book">
+                <a href="#none"><img src="./image/a1.png" alt="김단오 씨, 날다"></a>
+                <p class="value">[시집]</p>
+                <a href="#none">
+                    <p class="bookname"><span>김단오 씨, 날다</span></p>
+                    <p class="writer">임복순</p>
+                </a>
+            </div>
+
+            <div class="book">
+                <a href="#none"><img src="./image/a2.png" alt="봄빛"></a>
+                <p class="value">[소설]</p>
+                <a href="#none">
+                    <p class="bookname"><span>봄빛</span></p>
+                </a>
+                <p class="writer">정지아</p>
+            </div>
+
+            <div class="book">
+                <a href="#none"><img src="./image/a3.png" alt="서울, 마둑, 해울"></a>
+                <p class="value">[소설]</p>
+                <a href="#none">
+                    <p class="bookname"><span>서울, 마둑, 해울</span></p>
+                </a>
+                <p class="writer">곽나원</p>
+            </div>
+
+            <div class="book">
+                <a href="#none"><img src="./image/a4.png" alt="사는 동안 행복하게"></a>
+                <p class="value">[에세이]</p>
+                <a href="#none">
+                    <p class="bookname"><span>사는 동안 행복하게</span></p>
+                </a>
+                <p class="writer">손서영</p>
+            </div>
+
+            <div class="book">
+                <a href="#none"><img src="./image/a5.png" alt="송이송이 따다 드리리"></a>
+                <a href="#none">
+                    <p class="value">[소설]</p>
+                </a>
+                <a href="#none">
+                    <p class="bookname"><span>송이송이 따다 드리리</span></p>
+                </a>
+                <p class="writer">김종완 김현 송재은 이종산</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- con1 -->
+
+    <!-- 브랜드스토리 배너 -->
+    <div class="brandbanner">
+        <a href="#" class="mb_img"><img src="./image/bstory.png" alt="브랜스스토리 배너"></a>
+
+        <div class="brandbanner_text">
+            <p class="mb_t1">Brand Story</p>
+            <p class="mb_t2">우리가 전국 책방을 <br>
+                발 벗고 찾아나서는 이유</p>
+            <p class="mb_t3">숨숨책방의 이야기를 확인해 보세요!</p>
+            <a href="./sub1.html" class="bstory_btn"><img src="./image/bstory_b.png" alt=""></a>
+        </div>
+    </div>
+
+
+    <!-- con2 책방이야기-->
+    <div data-aos="fade-up" class="con2_ani">
+        <div class="con2">
+            <p class="title_s">전국 모든 책방을 찾아서! 시시콜콜 책방 얘기</p>
+            <p class="title"><span>책방</span>이야기</p>
+
+            <div class="plus">
+                <a href="./sub5.html" class="text">더보기</a>
+                <a href="./sub5.html" class="plusicon"><img src="./image/plus.png" alt="더보기 아이콘"></a>
+            </div>
+        </div>
+
+        <!-- 구문 -->
+        <div class="swiper-container gallery-center">
+            <div class="gallery-center_inner">
+                <div class="swiper-wrapper">
+
+
+
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./image/b3.png" alt="오혜"></a>
+                        <div class="text">
+                            <p class="id">O_hooray</p>
+                            <a href="#">
+                                <p class="t">다시 태어난 저의 최애 숨숨책방, <br>
+                                    오혜를 소개합니다🌳</p>
+                            </a>
+                            <p class="loc">Ohye</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./image/b4.png" alt="유어마인드"></a>
+                        <div class="text">
+                            <p class="id">yourmind</p>
+                            <a href="#">
+                                <p class="t">대한민국 1세대 독립서점으로<br>살아남는 법✏️</p>
+                            </a>
+                            <p class="loc">유어마인드</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./image/b5.png" alt="인디문학1호점"></a>
+                        <div class="text">
+                            <p class="id">first_indi</p>
+                            <a href="#">
+                                <p class="t">숲 속에 있는 감성 책방을 찾고<br>
+                                    있다면 바로 여기🌲</p>
+                            </a>
+                            <p class="loc">인디문학1호점</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./image/b1.png" alt="별책부록"></a>
+                        <div class="text">
+                            <p class="id">starbook</p>
+                            <a href="#">
+                                <p class="t">본편보다 특별한 당신만의 책,<br>
+                                    별책부록을 발견하길📘</p>
+                            </a>
+                            <p class="loc">별책부록</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./image/b2.png" alt="땡스북스"></a>
+                        <div class="text">
+                            <p class="id">thxthx_x</p>
+                            <a href="#">
+                                <p class="t">좋아하는 책을 편안한 공간에서 <br>
+                                    고르는 기쁨이 넘치는 곳🥰</p>
+                            </a>
+                            <p class="loc">땡스북스</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 화살표 버튼 -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <!-- 책방이야기 -->
+
+
+    <!-- 숨숨모임 -->
+    <div data-aos="fade-up" class="con3">
+
+        <div class="con3_in">
+            <p class="title_s">책방 모임도 숨숨대원들과 함께해요!</p>
+            <p class="title"><span>숨숨</span>모임</p>
+
+            <div class="plus">
+                <a href="./sub6.html" class="text">더보기</a>
+                <a href="./sub6.html" class="plusicon"><img src="./image/plus.png" alt="더보기 아이콘"></a>
+            </div>
+
+            <div class="con3_wrap">
+
+
+                <div class="category">
+                    <ul>
+                        <li><a href="#none" class="cate">카테고리</a>
+                            <ul class="category_sub">
+                                <li><a href="#none">클래스</a></li>
+                                <li><a href="#none">독서모임</a></li>
+
+                                <li><a href="#none">스터디</a></li>
+                                <li><a href="#none">작가인사</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="bookgroup b1">
+                    <img src="./image/class.png" alt=" 이미지" class="bookgroup_img">
+                    <div class="box">
+                        <a href="#none"><img src="./image/d1.png" alt="디지털드로잉"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">서울</p>
+                            </div>
+                            <a href="#none">
+                                <p class="t">[디지털드로잉] 따뜻함을 품은 <br>
+                                    아이패드 감성 드로잉🌷 </p>
+                            </a>
+                            <p class="loc">별책부록</p>
+                            <p class="time">수 17:00~18:00, 총 5회</p>
+                        </div>
+
+                        <a href="#none" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+                    <div class="box">
+                        <a href="#none"><img src="./image/d2.png" alt="칼림바"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">부산</p>
+                            </div>
+                            <a href="#none">
+                                <p class="t">[음악] 힐링악기 칼림바와 함께 <br>
+                                    마음을 두드려요! </p>
+                            </a>
+                            <p class="loc">Ohye</p>
+                            <p class="time">금 10:00~12:00, 총 10회</p>
+                        </div>
+
+                        <a href="#none" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+                    <div class="box">
+                        <a href="#none"><img src="./image/d5.png" alt="꽃"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">부산</p>
+                            </div>
+                            <a href="#none">
+                                <p class="t">[공예] 일상에서 꽃과 함께하는 <br>생화 라이프 입문하기 </p>
+                            </a>
+                            <p class="loc">땡스북스</p>
+                            <p class="time">토 14:00~15:00, 총 4회</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+                    <div class="box">
+                        <a href="#"><img src="./image/d3.png" alt="필름"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">부산</p>
+                            </div>
+                            <a href="#">
+                                <p class="t">[사진/영상] 작가 신혜림의 필름
+                                    <br>클래스 - 느림의 미학
+                                </p>
+                            </a>
+                            <p class="loc">Ohye</p>
+                            <p class="time">월 10:00~12:00, 총 6회</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+                <div class="bookgroup b2">
+
+                    <img src="./image/bookgroup.png" alt="독서모임 이미지" class="bookgroup_img">
+                    <div class="box">
+                        <a href="#"><img src="./image/c1.png" alt="도쿄R부동산"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">서울</p>
+                            </div>
+                            <a href="#">
+                                <p class="t">[도쿄R부동산] 행복한 일잘러를<br>
+                                    만드는 조직이 되고 싶다면? </p>
+                            </a>
+                            <p class="loc">인디문학1호점</p>
+                            <p class="time">금 19:00~20:30, 총 5회</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+                    <div class="box">
+                        <a href="#none"><img src="./image/c6.png" alt="숙론"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">부산</p>
+                            </div>
+                            <a href="#none">
+                                <p class="t">[월영시장] 설재인 첫 연작소설집! <br> 궁금한 분 여기로👀 </p>
+                            </a>
+                            <p class="loc">책방오늘</p>
+                            <p class="time">토 12:00~13:00, 총 4회</p>
+                        </div>
+
+                        <a href="#none" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+                    <div class="box">
+                        <a href="#none"><img src="./image/c3.png" alt="숙론"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">부산</p>
+                            </div>
+                            <a href="#">
+                                <p class="t">[숙론] 최재천 교수의 불통 사회를 <br>
+                                    소통 사회로 바꾸는 대화 혁명🤝 </p>
+                            </a>
+                            <p class="loc">땡스북스</p>
+                            <p class="time">토 10:00~12:00, 총 4회</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+                    <div class="box">
+                        <a href="#none"><img src="./image/c4.png" alt="숙론"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">부산</p>
+                            </div>
+                            <a href="#">
+                                <p class="t">[쿠쉬룩] 젊은 작가 단편집 시리즈 <br>
+                                    쿠쉬룩 같이 읽어요🌲 </p>
+                            </a>
+                            <p class="loc">공간과몰입</p>
+                            <p class="time">수, 목 18:00~19:00, 총 5회</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+                <div class="bookgroup b3">
+
+                    <img src="./image/study.png" alt="스터디 이미지" class="bookgroup_img">
+                    <div class="box">
+                        <a href="#none"><img src="./image/e1.png" alt="영어스터디"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">서울</p>
+                            </div>
+                            <a href="#">
+                                <p class="t">[어학] 외국인 친구와 함께! <br>
+                                    실전 회화 스터디원 구해요🙋‍♂️ </p>
+                            </a>
+                            <p class="loc">당신의책갈피</p>
+                            <p class="time">토 15:00~16:00, 총 4회</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+                    <div class="box">
+                        <a href="#none"><img src="./image/e2.png" alt="크로키스터디"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">부산</p>
+                            </div>
+                            <a href="#">
+                                <p class="t">[드로잉] 인체 공부, 크로키 스터디 <br>
+                                    함께 해요! 초보 환영💛 </p>
+                            </a>
+                            <p class="loc">미우서재</p>
+                            <p class="time">매주 금 17:00~18:00</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+                    <div class="box">
+                        <a href="#"><img src="./image/e3.png" alt="출판스터디"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">부산</p>
+                            </div>
+                            <a href="#">
+                                <p class="t">[취미] 나를 기록하고, 우리를 기록 <br>
+                                    하자! 독립출판 제작 스터디 </p>
+                            </a>
+                            <p class="loc">이솝우화</p>
+                            <p class="time">목 19:00~20:30, 총 5회</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+                    <div class="box">
+                        <a href="#"><img src="./image/e4.png" alt="스페인스터디"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">부산</p>
+                            </div>
+                            <a href="#">
+                                <p class="t">[어학] 듣고, 쓰고, 말하는 실전 <br>
+                                    여행 스페인어 스터디 ✈️ </p>
+                            </a>
+                            <p class="loc">기억의숲</p>
+                            <p class="time">화 18:00~19:00, 총 5회</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+                <div class="bookgroup b4">
+
+                    <img src="./image/writer.png" alt="작가만남 이미지" class="bookgroup_img">
+                    <div class="box">
+                        <a href="#"><img src="./image/f1.png" alt="정경아"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">창원</p>
+                            </div>
+                            <a href="#">
+                                <p class="t">[정경아] '일주일에 세번, 동네 문화 <br>
+                                    센터에 놀러갑니다' 저자 북토크 </p>
+                            </a>
+                            <p class="loc">민들레책밭</p>
+                            <p class="time">4/3(화) ｜ 오후 2시</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+                    <div class="box">
+                        <a href="#"><img src="./image/f2.png" alt="손희정"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">서울</p>
+                            </div>
+                            <a href="#">
+                                <p class="t">[손희정] '손상된 행성에서 더 나은 <br>
+                                    파국을 상상하기' 출간 기념 북토크 </p>
+                            </a>
+                            <p class="loc">1984</p>
+                            <p class="time">5/4(토) ｜ 오후 3시</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+                    <div class="box">
+                        <a href="#"><img src="./image/f3.png" alt="전영애"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">부산</p>
+                            </div>
+                            <a href="#">
+                                <p class="t">[전영애] 프란츠 카프카 '돌연한 <br>
+                                    출발' 역자 전영애 북토크 </p>
+                            </a>
+                            <p class="loc">땡스북스</p>
+                            <p class="time">6/4(토) ｜ 오후 1시</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+                    <div class="box">
+                        <a href="#"><img src="./image/f4.png" alt="스페인스터디"></a>
+                        <div class="bookgroup_text">
+
+                            <div class="group_tag">
+                                <p class="NEW">NEW</p>
+                                <p class="area">서울</p>
+                            </div>
+                            <a href="#">
+                                <p class="t">[백수린] '아주 오랜만에 행복하다 <br>
+                                    는 느낌' 출간 기념 싸인회 </p>
+                            </a>
+                            <p class="loc">유어마인드</p>
+                            <p class="time">5/13(토) ｜ 오후 1시</p>
+                        </div>
+
+                        <a href="#" class="heart"><img src="./image/heart.png" alt=""></a>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- 이벤트 -->
+    <div data-aos="fade-up" class="con2">
+        <p class="title_s">숨숨책방만의 다양한 이벤트를 확인해 보세요!</p>
+        <p class="title"><span>NEW </span>EVENT</p>
+
+        <div class="plus">
+            <a href="./sub4.html" class="text">더보기</a>
+            <a href="./sub4.html" class="plusicon"><img src="./image/plus.png" alt="더보기 아이콘"></a>
+        </div>
+
+
+        <div class="event_wrap">
+
+            <div class="event">
+                <a href="./sub4.html"><img src="./image/event1.png" alt="이벤트배너1"></a>
+
+                <div class="event_text">
+                    <a href="#">
+                        <p class="event_t">숨숨책방 단독! <br>
+                            &lt;아버지의 해방일지&gt; 구매 이벤트
+                        </p>
+                        <p class="event_s">숨숨책방 X 정지아 콜라보 굿즈</p>
+                        <p class="event_date">2024.05.01~05.14.</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="event">
+                <a href="./sub4.html"><img src="./image/event2.png" alt="이벤트배너1"></a>
+
+                <div class="event_text">
+                    <a href="#">
+                        <p class="event_t">밀리카 작가 &lt;작고 귀여운 나의 행복&gt;
+                            <br>
+                            출간 기념 이벤트
+                        </p>
+                        <p class="event_s">점착 포스트잇 & 선착순 싸인북 증정</p>
+                        <p class="event_date">2024.05.01~05.07.</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 모바일배너 -->
+    <div class="mobile_wrap">
+        <div class="mobile_text">
+            <p class="mobile_new">NEW</p>
+            <p class="mobile_t"><span class="mobile_span2">숨숨책방</span>을 이제 <span class=" mobile_span">모바일</span>에서도!</p>
+            <p class="mobile_s">모임 예약부터 연락까지, <br>
+                모바일에서 더 편리하게 소통해 보세요!</p>
+        </div>
+        <div class="mobile_icon">
+            <a href="#none"><img src="./image/google.png" alt="구글플레이 버튼"></a>
+            <a href="#none" class="apple"><img src="./image/apple.png" alt="애플스토어 버튼"></a>
+        </div>
+    </div>
+
+    <!-- 띠 애니메이션 -->
+    <div class="marquee">
+        <div></div>
+    </div>
+
+
+    <!-- 푸터 -->
+    <footer>
+        <div class="footer_wrap">
+            <div class="footer_left">
+                <div class="b">
+                    <a href="#none">개인정보처리방침</a>
+                    <a href="#none">영상정보처리운영관리방침</a>
+                    <a href="#none">이용약관</a>
+                </div>
+
+                <p>copyright ⓒ Sumsum Bookstore, Inc. All Right Reserved.</p>
+                <p>부산광역시 기장군 기장읍 대변로 43, 201동 904호 (웨이브리즈) </p>
+                <p>전화 051-955-3333(월~금 10시~17시, 점심시간 11시 30분~13시)｜ 메일 sumsumbook@gmail.com </p>
+            </div>
+
+            <div class="footer_right">
+                <a href="#none">
+                    <p>숨숨협력 신청</p>
+                </a>
+                <a href="#none">
+                    <p>출판문의</p>
+                </a>
+
+                <div class="footer_icon">
+                    <a href="#none"><img src="./image/facebook.png" alt="페이스북"></a>
+                    <a href="#none"><img src="./image/insta.png" alt="인스타"></a>
+                    <a href="#none"><img src="./image/youtube.png" alt="유튜브"></a>
+                    <a href="#none"><img src="./image/kakaotalk.png" alt="카카오톡"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- js -->
+    <!-- 탑버튼 -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <!-- 슬라이드 -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- 올라가는 숫자 -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+
+    <script src="js/jquery.animateNumber.min.js"></script>
+
+    <script src="js/waypoints.min.js"></script>
+    <!-- 탑버튼 -->
+
+    <!-- 애니메이션 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

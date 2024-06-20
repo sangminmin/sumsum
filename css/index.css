@@ -1,0 +1,1000 @@
+@charset "utf-8";
+
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Pretendard';
+  font-size: 20px;
+  color: #333333;
+  letter-spacing: -0.3px;
+  min-width: 1320px;
+
+}
+
+
+
+
+
+
+
+/* 스크롤바 */
+body::-webkit-scrollbar {
+  /*스크롤바 전체*/
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  /*스크롤바 막대*/
+  background-color: #35A069;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+
+body::-webkit-scrollbar-track {
+  /*스크롤바 막대 외부*/
+  background-color: #F3F3EB;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px white;
+}
+
+/* 헤더 */
+.header_in {
+  width: 90%;
+  max-width: 1783px;
+  justify-content: space-between;
+
+  margin: auto;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 53px;
+  align-items: center;
+  flex: 1;
+}
+
+.nav li{
+  position: relative;
+  
+}
+
+.nav {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  width: 35%;;
+  min-width: 500px;
+  justify-content: space-between;
+  margin-left: 8%;
+
+}
+
+.nav>li>a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+margin: 0 30px;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+
+
+.nav>li:hover>a {
+  color: #70BC80;
+}
+
+.nav li:hover .sub {
+  display: block;
+}
+
+.sub a {
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  font-weight: 500;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 9px 0;
+
+}
+
+.sub a:hover{
+  font-weight: bold;
+  color:#BFD994
+}
+.sub {
+  align-items: center;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 30px;
+  background-color: #35A069;
+  width: 100%;
+  display: none;
+  z-index: 1;
+  border-radius: 22px;
+  padding: 13px 0;
+}
+
+
+/* 헤더_서브 */
+
+
+
+/* 헤더_검색창 */
+.header_r {
+
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+}
+
+.header_r li {
+  padding-left: 17px;
+}
+
+.header_r a {
+  color: #666;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.search {
+  padding-right: 5px;
+}
+
+.search-box {
+  height: 45px;
+  width: 238px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: 1px solid #70BC80;
+  box-sizing: border-box;
+  display: block;
+  padding: 14px 21px;
+}
+
+.search-txt {
+  font-family: 'Pretendard';
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  color: #999999;
+  font-size: 14px;
+  width: 160px;
+  font-weight: 600;
+}
+
+.search-btn {
+  float: right;
+  border: none;
+  background-color: #fff;
+  display: flex;
+}
+
+/* 헤더_검색창 */
+
+
+/* 헤더 */
+
+/* 탑버튼 */
+.top {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  display: none;
+  z-index: 1;
+}
+
+.sum {
+  position: fixed;
+  bottom: 120px;
+  right: 30px;
+  display: none;
+  z-index: 1; 
+
+}
+
+
+/* 배너 */
+
+.mainbanner {
+  position: relative;
+  width: 90%;
+  height: 748px;
+  margin: auto;
+  margin-bottom: 90px;
+  max-width: 1783px;
+
+}
+
+.mb {
+  margin: 78px auto;
+  width: 100%;
+  display: block;
+}
+
+
+.section { 
+  position: absolute;
+  width: 424px;
+  height: 134px;
+ 
+  top: 194px;
+  left: 158px;
+  font-size: 37px;
+  line-height: 44px;
+  color: #F3F3EB;
+  font-weight: 600;
+}
+
+.section p {
+  font-size: 22px;
+  color: #F3F3EB;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+.section span {
+  font-weight: bold;
+  color: #BFD994;
+}
+
+
+
+/* 배너 */
+
+
+/* con1 -숨숨책추천 */
+
+.con1,
+.con2 {
+  width: 1320px;
+  margin: auto;
+  
+}
+
+
+.bookwrap {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.title_s {
+  font-size: 22px;
+   font-weight: 600;
+  color: #707070;
+  padding-bottom: 15px;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.title span {
+  font-weight: 700;
+  color: #35A069;
+}
+
+.value {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 13px;
+  padding-top: 15px;
+  color: #707070;
+}
+
+.bookname {
+  font-weight: 600;
+  padding-bottom: 13px;
+}
+
+.writer {
+  color: #999999;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.tag {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 26px;
+}
+
+.con1 {
+  position: relative;
+}
+
+.plus_tag {
+  position: absolute;
+  top: 127px;
+  left: 255px;
+}
+
+.tag a {
+  background-color: white;
+  border: 1px solid #70BC80;
+  color: #35A069;
+  font-size: 14px;
+  padding: 5px 13px;
+  border-radius: 40px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.tag a:hover {
+  background-color: #35A069;
+  color: #F3F3EB;
+}
+
+
+.plus {
+  font-size: 18px;
+  padding-bottom: 30px;
+  text-align: end;
+  padding-right: 33px;
+  position: relative;
+  color: #666;
+}
+
+.plus .text {
+  padding-right: 4px;
+}
+
+.plusicon {
+  position: absolute;
+  top: 1.7px;
+}
+
+
+
+/* 책 호버 */
+
+
+
+.book img {
+
+  transition: 0.3s;
+}
+
+.book img:hover {
+  transform: scale(1.06, 1.06);
+
+}
+
+.book:hover .bookname {
+  color: #35A069;
+}
+
+.book:hover .value {
+  color: #70BC80;
+}
+
+.book:hover .writer {
+  color: #70BC80;
+}
+
+.bookname span {
+  position: relative;
+}
+
+.bookname span::before {
+  content: '';
+  /* before, after는 인라인 요소라서 블럭요소로 바꿔줌. */
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #70BC80;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 1s;
+}
+
+.book:hover .bookname span::before {
+  transform: scaleX(1);
+}
+
+/* 책 호버 */
+
+
+
+/* 브랜드스토리 배너 */
+.brandbanner {
+  width: 1320px;
+  margin: 160px auto;
+  position: relative;
+}
+
+.brandbanner_text {
+  position: absolute;
+  top: 44px;
+  left: 97px;
+}
+
+.mb_t1 {
+  color: #BFD994;
+  font-size: 15px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.mb_t2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+  padding-bottom: 20px;
+}
+
+.mb_t3 {
+  color: #F3F3EB;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.bstory_btn {
+  position: absolute;
+  top: 128px;
+  left: 215px;
+  transition: 0.5s;
+}
+
+.bstory_btn:hover {
+  transform: translate(10px, 0);
+  box-shadow: 0 0 #ccc;
+  transition: .4s;
+}
+
+/* 브랜드스토리 배너 */
+
+
+
+/* 책방이야기 */
+/* 갤러리 센터 꾸미기 */
+
+.gallery-center {
+  width: 90%;
+  max-width: 1783px;
+  height: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.gallery-center_inner {
+  width: 100%;
+  overflow: hidden;
+}
+
+.gallery-center .swiper-slide a {
+  width: 100%;
+  height: 100%;
+}
+
+
+.gallery-center .swiper-slide{
+  min-width: 330px;
+}
+.gallery-center .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-button-next {
+  position: absolute;
+  top: 210px;
+  right: 24px;
+  opacity: 90%;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 210px;
+  left: 19px;
+  opacity: 90%;
+}
+
+.swiper-button-next:hover {
+  opacity: 70%;
+}
+
+.swiper-button-prev:hover {
+  opacity: 70%;
+}
+
+/* 이동버튼 이미지로 바꾸기 */
+.gallery-center .swiper-button-prev,
+.gallery-center .swiper-button-next {
+  width: 55px;
+  height: 55px;
+}
+
+.gallery-center .swiper-button-prev:after,
+.gallery-center .swiper-button-next:after {
+  content: '';
+  display: block;
+  width: 55px;
+  height: 55px;
+}
+
+.gallery-center .swiper-button-prev:after {
+  background: url(../image/next.png);
+}
+
+.gallery-center .swiper-button-next:after {
+  background: url(../image/prev.png);
+}
+
+
+/* 책방이야기 개별 */
+.swiper-slide {
+  position: relative;
+}
+
+.swiper-slide .text {
+  position: absolute;
+  top: 65%;
+  left: 13%;
+  width: 250px;
+}
+
+.swiper-slide .id {
+  font-size: 0.7rem;
+  color: #35A069;
+  font-weight: 400;
+  border: 1px solid #70BC80;
+  border-radius: 40px;
+  padding: 2px 8px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.swiper-slide .t {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 8px;
+  line-height: 27px;
+
+}
+
+.swiper-slide .loc {
+  font-size: 0.8rem;
+  color: #35A069;
+  font-weight: 400;
+  padding-left: 17px;
+  background: url(../image/location.png) no-repeat;
+}
+
+
+/* 책방이야기 */
+
+
+
+.swiper-slide:hover img {
+  filter: opacity(80%);
+}
+
+.swiper-slide:hover .t {
+  font-weight: 800;
+}
+
+/* 숨숨모임 */
+
+.con3 {
+  margin: 180px auto;
+  height: 1542px;
+  background: url(../image/back.png) no-repeat center top;
+}
+
+.con3_in {
+  width: 1320px;
+  margin: auto;
+  padding-top: 150px;
+
+  position: relative;
+  
+}
+
+.con3_top{
+  padding-bottom: 40px;
+}
+.con3_wrap {
+  width: 1320px;
+  margin: auto;
+}
+
+.con3{
+  position: relative;
+}
+
+.cate_img{
+  position: absolute;
+  top: 300px;
+  left: 0;
+z-index: -1;
+}
+
+.bookgroup {
+  position: absolute;
+  top: 320px;
+  left: 640px;
+  display: none;
+}
+
+.box {
+  position: relative;
+}
+.box:hover img{
+  filter: opacity(80%);
+}
+.box:hover .t {
+  font-weight: 800;
+}
+
+/* 숨숨모임 카테고리 */
+.cate{
+  font-size: 16px;
+  font-weight: 700;  
+  background: url(../image/catebar.png) no-repeat 85% 50%;
+  background-color: #fff;
+  padding: 15px 70px 15px 24px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 7px #999;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+
+.nav>li{
+  padding-bottom: 7px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.category{
+  position: relative;
+  padding-top: 110px;
+  display: inline-block;
+}
+
+
+.category_sub a{
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+  margin: 17px 0;
+}
+
+.category_sub a:hover{
+  color: #35A069;
+  font-weight: 700;
+
+}
+.category li:hover .category_sub{
+  display: block;
+}
+
+
+.category_sub{
+  display: none;
+  text-align: left;
+  position: absolute;
+  width: 90px;
+  left: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 8px 0px 8px 20px;
+  box-shadow: 0px 0px 7px #999;
+
+}
+
+.bookgroup_img{
+  position: absolute;
+  top: 0;
+  left: -930px;
+  z-index: -1;
+}
+
+/* 숨숨모임 개별 박스 */
+
+.bookgroup_text {
+  position: absolute;
+  top: 60px;
+  left: 330px;
+}
+
+.group_tag {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.group_tag p {
+
+  border-radius: 40px;
+  font-weight: 500;
+}
+
+.group_tag .NEW {
+  padding: 4px 9px;
+  font-size: 13px;
+  color: #fff;
+  background-color: #35A069;
+  margin-right: 5px;
+}
+
+.group_tag .area {
+  padding: 3px 9px;
+  font-size: 14px;
+
+  color: #35A069;
+  background-color: #ffffff;
+  border: 1px solid #70BC80;
+}
+
+.box .t {
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.box .loc {
+  font-size: 15px;
+  color: #35A069;
+  padding-bottom: 8px;
+  background: url(../image/location2.png) no-repeat 0 1px;
+  padding-left: 18px;
+}
+
+.box .time {
+  font-size: 15px;
+  color: #707070;
+  background: url(../image/time.png) no-repeat 0 1.5px;
+  padding-left: 18px;
+}
+
+.heart {
+  position: absolute;
+  bottom: 60px;
+  right: 70px;
+}
+
+/* 이벤트 */
+.event_wrap {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+
+.event {
+  position: relative;
+  
+}
+
+.event_text {
+  position: absolute;
+  top: 43px;
+  left: 42px;
+}
+
+.event_t {
+  font-size: 20px;
+  line-height: 29px;
+  color: #000;
+  font-weight: 700;
+  padding-bottom: 14px;
+}
+
+.event_s {
+  font-size: 14px;
+  color: #857F6D;
+  padding-bottom: 14px;
+}
+
+.event_date {
+  font-size: 12px;
+  color: #C1BCAF;
+}
+
+
+/* 모바일배너 */
+.mobile_wrap {
+  width: 100%;
+  height: 362.46px;
+  margin: auto;
+  background: url(../image/mobile_b.png) no-repeat center top;
+  margin-top: 200px;
+
+  position: relative;
+}
+
+
+.mobile_text {
+  width: 720px;
+  margin: auto;
+  padding-top: 90px;
+  color: #fff;
+}
+
+.mobile_new {
+  font-size: 11px;
+  font-weight: 700;
+  color: #413E35;
+  background-color: #BFD994;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 40px;
+
+  margin-bottom: 10px;
+}
+
+.mobile_t {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.mobile_span {
+  color: #BFD994;
+  font-weight: 700;
+}
+
+.mobile_span2 {
+  font-weight: 700;
+}
+
+.mobile_s {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.mobile_icon {
+  width: 720px;
+  margin: auto;
+  padding-right: 20px;
+}
+
+.apple {
+  margin-left: -10px;
+}
+
+.mobile_icon a:hover {
+  opacity: 90%;
+}
+
+/* 띠 애니메이션 */
+.marquee {
+  background-color: #35A069;
+  height: 34px;
+  padding: 16px 0 13px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee div {
+  width: 200%;
+  height: 34px;
+  background: url(../image/belt2.png) repeat-x;
+  position: absolute;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+
+
+/* 푸터 */
+footer {
+  background-color: #F3F3EB;
+}
+
+.footer_wrap {
+  width: 90%;
+  max-width: 1783px;
+  padding: 80px 0;
+  margin: auto;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_right {
+  text-align: right;
+  align-items: end;
+}
+
+.footer_left p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.b a {
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.b a:hover{
+  color: #35A069;
+}
+.b {
+  margin-bottom: 23px;
+}
+
+.footer_right a:hover{
+  color: #35A069;
+}
+.footer_right p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer_icon {
+  margin-top: 45px;
+}
+
+.footer_icon a {
+  margin-left: 5px;
+}
+
+.footer_icon a:hover {
+  opacity: 80%;
+}
